@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+    height: 100vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 0; 
+}
+
+/* Estilos para el formulario */
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la tarjeta */
+    border: none; /* Sin borde */
+    border-radius: 15px; /* Bordes redondeados */
+    background-color: #8e44ad; /* Color de fondo violeta */
+    color: white; /* Color de texto blanco */
+}
+
+.card-body {
+    padding: 2rem; 
+}
+
+.card-title {
+    color: #f8f9fa; 
+}
+
+/* Estilos para el boton */
+.btn-primary {
+    background-color: #5e3370; 
+    border-color: #5e3370;
+}
+
+.btn-primary:hover {
+    background-color: #4a2760; 
+    border-color: #4a2760; 
+}
+
+/* Estilos para el cartel del pop up */
+.alert-success {
+    background-color: #5e3370; 
+    border-color: #5e3370; 
+    color: white; 
+}
